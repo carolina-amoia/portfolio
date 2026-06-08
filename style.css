@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Inter:wght@300;400;500&display=swap');
+:root{--bg:#121212;--card:#1E1E1E;--gold:#D4AF37;--text:#fff;}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:Inter,sans-serif}
+.custom-nav{background:rgba(18,18,18,.95)}
+.hero{min-height:100vh;display:flex;align-items:center;padding-top:80px}
+.hero h1,.section-title{font-family:Montserrat,sans-serif}
+.hero h1{font-size:4rem;font-weight:800}
+.hero h3{color:var(--gold);font-size:1.2rem}
+.profile-photo{width:260px;height:260px;border-radius:50%;object-fit:cover;border:4px solid rgba(212,175,55,.35)}
+.btn-gold{background:var(--gold);color:#111}
+.section{padding:90px 0}
+.alt{background:#171717}
+.card-dark{background:var(--card);border:none;color:#fff;height:100%}
+.card-dark h4{color:var(--gold)}
+.timeline li{margin-bottom:14px}
+.badge{background:#2c2c2c;margin:6px;padding:10px 14px}
+footer{padding:90px 0;background:#0d0d0d}
+.floating-linkedin{position:fixed;right:20px;bottom:20px;background:#0a66c2;color:#fff;padding:14px 16px;border-radius:50%;font-size:24px;text-decoration:none}
+@media(max-width:991px){.hero{text-align:center}.hero h1{font-size:3rem}.profile-photo{width:220px;height:220px;margin-top:30px}}
